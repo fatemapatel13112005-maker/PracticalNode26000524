@@ -84,9 +84,8 @@ const sessionEmitter = new EventEmitter();
 sessionEmitter.on('sessionStart', () => {
     console.log('Session started successfully');
     console.log('Total log entries');
-    console.log(`Report: ${fileName}`);
+    console.log(`Reports: ${fileName}`);
 });
 
 // 2. Trigger the custom event
 sessionEmitter.emit('sessionStart');
-
