@@ -1,0 +1,7 @@
+OS Platform: win32
+OS Type: Windows_NT
+OS Release: 10.0.26200
+CPU Architecture: x64
+Hostname: FATEMA_PATEL
+Memory: 0.35GB free of 7.68GB
+Current User: fatem
