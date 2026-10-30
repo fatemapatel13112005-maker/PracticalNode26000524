@@ -1,48 +1,4 @@
-// // ES Module (e.g., app.mjs or "type": "module" in package.json)
-// import { fileURLToPath } from 'url';
-// import { dirname } from 'path';
 
-// // Get the current module's URL
-// const __filename = fileURLToPath(import.meta.url);
-// const __dirname = dirname(__filename);
-
-// console.log('ES Module file path:', __filename);
-// console.log('ES Module directory:', __dirname);
-
-// // Example with dynamic imports
-// async function loadConfig() {
-//   const configPath = new URL('../config/app-config.json', import.meta.url);
-//   const config = await import(configPath, { with: { type: 'json' } });
-//   return config;
-// }
-// console.log(`OS Platform: ${os.platform()}`);
-// console.log(`OS Type: ${os.type()}`);
-// console.log(`OS Release: ${os.release()}`);
-// console.log(`CPU Architecture: ${os.arch()}`);
-// console.log(`Hostname: ${os.hostname()}`);
-
-
-// const fs = require("fs");
-// const path = "./config";
-
-// fs.access(path, (error) => {
- 
-//   // To check if the given directory 
-//   // already exists or not
-//   if (error) {
-//     // If current directory does not exist
-//     // then create it
-//     fs.mkdir(path, (error) => {
-//       if (error) {
-//         console.log(error);
-//       } else {
-//         console.log("New Directory created successfully !!");
-//       }
-//     });
-//   } else {
-//     console.log("Given Directory already exists !!");
-//   }
-// });
 console.clear();
 const path = require('path');
 
